@@ -38,6 +38,8 @@ export const BUILTIN_SLASH_COMMANDS: ReadonlyArray<BuiltinSlashCommand> = [
 	{ name: "logout", description: "Remove provider authentication" },
 	{ name: "new", description: "Start a new session" },
 	{ name: "compact", description: "Manually compact the session context" },
+	{ name: "attach", description: "Attach an image, audio, or video file to the next message", argumentHint: "<path>" },
+	{ name: "detach", description: "Remove all pending attachments" },
 	{ name: "resume", description: "Resume another session" },
 	{ name: "reload", description: "Reload keybindings, extensions, skills, prompts, themes, and context files" },
 	{ name: "quit", description: `Quit ${APP_NAME}` },
